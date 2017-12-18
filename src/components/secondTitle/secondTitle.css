@@ -1,0 +1,33 @@
+.title_all_ {
+  height: 50px;
+  display: flex;
+  text-indent: 13px;
+  background-color: #404040;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 86%;
+  z-index: 999; }
+  .title_all_ .action-btn {
+    position: absolute;
+    right: 10px;
+    top: 30px; }
+    .title_all_ .action-btn .ant-btn + .ant-btn {
+      margin-left: 5px; }
+  .title_all_ .title_words {
+    width: 30%;
+    font-size: 14px;
+    color: white; }
+  .title_all_ .right_content {
+    width: 70%;
+    padding: 16px 8px; }
+    .title_all_ .right_content .switch {
+      text-align: right;
+      padding: 5px 0; }
+      .title_all_ .right_content .switch span {
+        color: #fff; }
+
+/*# sourceMappingURL=secondTitle.css.map */

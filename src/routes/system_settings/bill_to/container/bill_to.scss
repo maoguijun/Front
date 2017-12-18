@@ -1,0 +1,84 @@
+@import "../../../../styles/base";
+.payment-read{
+  margin: 10px 50px;
+  border-top:1px solid #d7d7d7;
+  border-left:1px solid #d7d7d7;
+  h4{
+    color:$primary;
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .payment-row{
+    border-bottom:#ddd solid 1px;
+    padding-bottom: 15px;
+    margin-bottom: -1px;
+  }
+  .payment-label{
+    color:#999;
+    display: inline-block;
+    text-overflow:ellipsis;
+    padding:0 12px;
+    &:after{
+      content: ':';
+      margin-left: 3px;
+    }
+  }
+
+  .payment-value{
+    color:#333333;
+    padding:0 12px;
+    text-overflow:ellipsis;
+    // text-align: right
+  }
+
+
+  .payment-item{
+    border-bottom:1px solid #d7d7d7;
+    height:46px;
+    border-right:1px solid #d7d7d7;
+    background:#fff;
+    padding:12px;
+  }
+}
+
+.person{
+  position:absolute!important;
+  top:101.5px;
+  right:0;
+  width:27%;
+  border:1px solid #d7d7d7;
+  border-bottom:0;
+}
+
+.ant-table-row .draggable {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  font-size: 1.2rem;
+  transform: rotate(90deg);
+}
+
+
+.gu-mirror {
+  background-color: rgba(16, 142, 233, 0.15);
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.custom-filter-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.custom-filter-dropdown input {
+  width: 130px;
+  margin-right: 8px;
+}
+
+.highlight {
+  color: #f50;
+}

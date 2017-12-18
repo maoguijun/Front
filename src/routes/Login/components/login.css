@@ -1,0 +1,28 @@
+.login {
+  height: 100%;
+  background-color: #1f2d3d; }
+  .login h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px; }
+  .login .login-wrap {
+    position: relative; }
+  .login .ant-form {
+    margin-top: -100px;
+    width: 364px;
+    background-color: #f9fafc;
+    padding: 35px 35px 53px;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #8492a6;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); }
+  .login label {
+    font-size: 16px; }
+  .login .locale-btn {
+    position: absolute;
+    right: 17px;
+    top: -77px;
+    z-index: 99; }
+
+/*# sourceMappingURL=login.css.map */

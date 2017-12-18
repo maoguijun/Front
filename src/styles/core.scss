@@ -1,0 +1,64 @@
+@import 'base';
+@import '../../node_modules/antd/dist/antd.min.css';
+
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2 !important;
+}
+
+
+.top-line{
+  border-top:#eee solid 1px;
+  padding-top: 20px;
+}
+
+// 初始化dom
+.header{
+  font-size:20px;
+  border-bottom:1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top:6px;
+  text-indent: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  .status{
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 30px;
+  }
+}
+.amount{
+  text-align: right;
+}
+.table-content{
+  margin-top: 15px;
+}
+.highlight{
+  color: $primary;
+}
+.bg-red{
+  background-color: red;
+}
+html{
+
+
+  body{
+    background-color:#fff;
+    color: #666;
+  }
+  @import 'resetAntd';
+
+  .second-btn{
+    background-color: rgb(243,243,243);
+  }
+}
+
+

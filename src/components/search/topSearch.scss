@@ -1,0 +1,69 @@
+.search-bar{
+  .container>div{
+    height:100%
+  }
+  .ant-form-item-label{
+    font-weight:bold;
+
+  }
+  .ant-card-head{
+    //height: 36px;
+    //line-height: 36px;
+    //margin: 0 10px;
+    padding:0 10px;
+    .ant-card-head-title{
+      float:none;
+    }
+  }
+  .search-bar-header{
+    .ant-btn{
+      margin-top: 10px;
+      vertical-align: baseline;
+      &+.ant-btn{
+        margin-left:10px;
+      }
+    }
+    a{
+      margin-left: 8px;
+      font-size: 12px;
+    }
+  }
+  .ant-calendar-month-panel-header{
+    display: none;
+  }
+  .ant-input-lg{
+    height: 32px;
+    border-radius: 4px;
+  }
+  .ant-select-lg .ant-select-selection--single{
+    border-radius: 4px;
+    height: 32px;
+  }
+  .ant-select-selection__rendered{
+    line-height:32px !important;
+  }
+  .ant-input{
+    height: 32px;
+  }
+  .ant-select{
+    width:200px;
+  }
+
+  .ant-input[disabled]{
+    background-color: rgba(255,255,255,0);
+    border:none;
+    color: #666;
+    cursor: text;
+  }
+  .ant-select-selection--multiple{
+    min-height: 32px !important;
+    padding-bottom:0;
+    height: 32px;
+    overflow: hidden;
+    .ant-select-selection__rendered{
+      margin-bottom: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+}

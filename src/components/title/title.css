@@ -1,0 +1,24 @@
+.title_all {
+  height: 54px;
+  display: flex;
+  text-indent: 13px;
+  background-color: #001529;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 999; }
+  .title_all .action-btn {
+    position: absolute;
+    right: 10px;
+    top: 30px; }
+    .title_all .action-btn .ant-btn + .ant-btn {
+      margin-left: 5px; }
+  .title_all .title_words {
+    font-size: 16px;
+    color: white; }
+
+/*# sourceMappingURL=title.css.map */

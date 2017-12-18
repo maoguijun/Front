@@ -1,0 +1,17 @@
+.row-b {
+  background-color: #f9f9f9; }
+
+.row-a {
+  background-color: #fff; }
+
+.expand-column-no-header .ant-table-thead {
+  display: none; }
+.expand-column-no-header .ant-table-small {
+  border: 0; }
+
+.expand-column-header .ant-table-thead {
+  display: inherit; }
+.expand-column-header .ant-table-small {
+  border: 0; }
+
+/*# sourceMappingURL=Table.css.map */

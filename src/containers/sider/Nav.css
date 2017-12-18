@@ -1,0 +1,15 @@
+.nav-badge {
+  width: 100%; }
+  .nav-badge .ant-scroll-number {
+    left: 100%;
+    box-shadow: none;
+    font-size: 12px; }
+
+.userName {
+  padding: 0 24px; }
+
+.logout {
+  border: 1px solid #73777a;
+  padding: 7px 19px; }
+
+/*# sourceMappingURL=Nav.css.map */
