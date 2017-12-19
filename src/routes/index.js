@@ -1,36 +1,30 @@
 // We only need to import the modules necessary for initial render
-import {rootPath,chilPath} from '../config'
-import {requireAuth} from '../components/authentication/requireAuth'
-import LoginRoute from './Login'
-import Layout from '../layouts/CoreLayout'
-import BillTo from './system_settings/bill_to'
+import { rootPath, chilPath } from "../config";
+import { requireAuth } from "../components/authentication/requireAuth";
+import LoginRoute from "./Login";
+import Layout from "../layouts/CoreLayout";
+import BillTo from "./system_settings/bill_to";
+console.log(
+  "%c",
+  "padding:50px 118px;background:url(http://www.loncus.com/img/logo.png) no-repeat 0 10px;line-height:100px;height:1px"
+);
 
-console.log('%c',"padding:50px 118px;background:url(http://www.loncus.com/img/logo.png) no-repeat 0 10px;line-height:100px;height:1px")
-
-
-
-
-
-export const createRoutes = (store) => ({
-  path: '/',
+export const createRoutes = store => ({
+  path: "/",
   exact: true,
-  indexRoute:{
+  indexRoute: {
     onEnter: (_, replaceState) => {
-      replaceState("/login");//应该跳转到默认的首页
-    },
+      replaceState("/login"); //应该跳转到默认的首页
+    }
   },
-  childRoutes : [
+  childRoutes: [
     {
-      component:requireAuth(Layout),
-      childRoutes:[
-        BillTo(store),
-      ]
+      component: requireAuth(Layout),
+      childRoutes: [BillTo(store)]
     },
     LoginRoute(store)
   ]
 });
-
-
 
 /*  Note: childRoutes can be chunked or otherwise loaded programmatically
     using getChildRoutes with the following signature:
@@ -50,4 +44,4 @@ export const createRoutes = (store) => ({
     when the route exists and matches.
 */
 
-export default createRoutes
+export default createRoutes;

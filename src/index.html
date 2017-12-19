@@ -4,6 +4,15 @@
   <title>YOUPLUS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lt IE 10]>
+    <script src="https://as.alipayobjects.com/component/??console-polyfill/0.2.2/index.js,es5-shim/4.1.14/es5-shim.js,es5-shim/4.1.14/es5-sham.js,html5shiv/3.7.2/html5shiv.js"></script>
+  <![endif]-->
+  <script>
+    if (!window.Intl) {
+        document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/Intl.js">' + '<' + '/script>');
+        document.writeln('<script src="https://as.alipayobjects.com/g/component/intl/1.0.1/locale-data/jsonp/zh.js">' + '<' + '/script>');
+    }
+</script>
 </head>
 <body>
   <div id="root" style="height: 100%"></div>
